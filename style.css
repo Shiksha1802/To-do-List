@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #e4e8ea;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: rgb(148, 205, 219);
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid rgb(7, 68, 89) ;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #297eac;
+  background-color: #b9e4ef;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background: #083e69;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #087dd1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #b9e4ef;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  border: 1px solid #297eac;
+  justify-content: space-between;
+  text-transform: capitalize;
+  align-items: center;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-controls {
+  display: flex;
+  gap: 5px;
+}
+
+.task-controls button {
+  background: #d63031;
+  border: none;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-controls button.edit {
+  background: #0984e3;
+}
